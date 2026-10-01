@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reality.js — the aquarium</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  canvas { display: block; width: 100vw; height: 100vh; object-fit: cover; }
+</style>
+</head>
+<body>
+<div id="progress" style="position:fixed;left:16px;bottom:16px;color:#9cf;font:14px system-ui">baking the tank…</div>
+<script type="importmap">{ "imports": { "three": "./vendor/three/build/three.module.js" } }</script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
